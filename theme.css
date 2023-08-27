@@ -1,0 +1,43 @@
+@import url(https://raw.githubusercontent.com/Startive/CSS/main/Yes.css);
+
+:root {
+
+--Font-Used: 'Chakra Petch', cursive;
+
+/* https://raw.githubusercontent.com/Startive/CSS/main/List.txt /
+
+--Font-Size: 5px ;
+
+/ mediumxx-smallx-smallsmalllargex-largexx-largesmallerlargerlengthinitialinherit; /
+
+--Font-Style: normal ;
+
+/ normalitalicobliqueinitialinherit; /
+
+--Font-Weight: 100 ;
+
+/ normalboldbolderlighternumberinitialinherit /
+
+--Font-Variant: normal ;
+
+/ normalsmall-capsinitialinherit */
+
+}
+
+:not([class="hljs"]):not(code){
+
+font-family: var(--Font-Used)!important;
+
+font-style: var(--Font-Style)!important;
+
+font-weight: var(--Font-Weight)!important;
+
+font-variant: var(--Font-Variant)!important;
+
+}
+
+.markup:not(code) {
+
+font-size: var(--Font-Size)!important;
+
+}
